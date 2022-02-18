@@ -1,0 +1,26 @@
+.form-join {
+    /* 
+    col 클래스가 float을 가지고 있기 때문에 float을 없앤다.
+    */
+    margin : 0 auto;
+    float : none;
+}
+.form-join form {
+    /* 가로, 아래, 흐릿 정도, 색상 */
+    box-shadow : 0px 8px 16px rgb(0, 0, 0, 0.3);
+    padding : 30px 20px;
+}
+/* 로그인 */
+.login-form {
+    box-shadow : 0px 8px 16px rgb(0, 0, 0, 0.15);
+    padding : 30px;
+}
+.login-form img {
+    width : 100%; /* max-width : 최소 너비; */
+}
+.login-form .kakao {
+    background-color : yellow;
+}
+.login-form-inner {
+    padding : 30px 20px;
+}
